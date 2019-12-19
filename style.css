@@ -10,14 +10,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Playfair-Display', serif;
 }
 
 p {
   margin: 10px;
-  font-family: 'Playfair Display', serif;
-  font-style: oblique;
-  font-size: 1.5em;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  color: black;
 }
 
   .logo {
@@ -69,6 +69,20 @@ p {
   margin-top: 0px;
 }
 
+.allpgs-imgs {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  align-content: center center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  top: 0;
+  z-index: 1;
+  margin-top: 0px;
+}
+
 .img-overlay-wrap {
   position: relative;
   display: inline-block;
@@ -84,3 +98,25 @@ p {
 .cursor {
   cursor: ns-resize;
 }
+
+/* ------------------------- music page content ------------------------- */
+.fourohfour {
+  margin: 40px;
+  margin-top: 80px;
+  line-height: 4vh;
+  text-align: center;
+  text-decoration-color: black;
+  font-size: 1.5em;
+  font-style: oblique;
+}
+
+/* ------------------------- image page content ------------------------- */
+.image-subnav {
+  margin: 60px;
+  line-height: 5vh;
+  text-align: left;
+  text-decoration-color: black;
+  font-size: 5em;
+  font-style: oblique;
+}
+/* ------------------------- text page content ------------------------- */
