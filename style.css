@@ -14,21 +14,21 @@ h1 {
 }
 
   .logo {
-    z-index: 28;
-    position: absolute;
+    z-index: 30;
+    position: fixed;
     margin: 0 auto;
-    margin-top: 32px;
+    margin-top: 10px;
     width: 100%;
     text-align: center;
   }
 
   .main-nav {
-    margin: 0;
     width: 10px;
     text-decoration: none;
     position: relative;
     font-size: 24px;
     z-index: 29;
+    list-style-type: none;
   }
 
   a:link, a:visited, a:active {
@@ -44,41 +44,18 @@ h1 {
     color: #678fd6
   }
 
-  .project-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  div.main-nav.selected a {
+    color: #678fd6
   }
+/* ------------------------- home page content ------------------------- */
 
-  .project {
-    width: 400px;
-    height: 550px;
-    flex-grow: 1;
-  
-    background-size: cover;
-    background-position: center;
-  
-    text-align: center;
-  }
-  
-  .overlay {
-    background-color: white;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: black;
-    font-family: sans-serif;
-    opacity: 0;
-    transition: opacity 0.5s ease-in;
-  }
-  
-  .overlay:hover {
-    opacity: 1;
-  }
-  
-  .project h3 {
-    margin: 0;
-    transform: translateY(-10px);
-    transition: transform 0.3s ease-out;
-  }
+.home-bgimg1 {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  top: 0;
+  z-index: 1;
+  margin-top: 0px;
+}
