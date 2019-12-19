@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-family: "Rubik", sans-serif, "Playfair-Display", serif, "Roboto", sans-serif;
     text-decoration-color: black;
     background-color: floralwhite;
   }
@@ -48,7 +48,7 @@ p {
   }
 
   a:hover {
-    color: #678fd6
+    color: #678fd6;
   }
 
   div.main-nav.selected a {
@@ -79,4 +79,8 @@ p {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.cursor {
+  cursor: ns-resize;
 }
