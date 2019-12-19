@@ -13,8 +13,15 @@ h1 {
   font-family: 'Rubik', sans-serif;
 }
 
+p {
+  margin: 10px;
+  font-family: 'Playfair Display', serif;
+  font-style: oblique;
+  font-size: 1.5em;
+}
+
   .logo {
-    z-index: 30;
+    z-index: 28;
     position: fixed;
     margin: 0 auto;
     margin-top: 10px;
@@ -48,14 +55,28 @@ h1 {
     color: #678fd6
   }
 /* ------------------------- home page content ------------------------- */
-
 .home-bgimg1 {
   display: flex;
+  flex-direction: wrap;
   justify-content: center;
+  align-content: center center;
+  align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100%;
   top: 0;
   z-index: 1;
   margin-top: 0px;
+}
+
+.img-overlay-wrap {
+  position: relative;
+  display: inline-block;
+  transform: transform 150ms ease-in-out;
+}
+
+.img-overlay-wrap img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
